@@ -14,7 +14,7 @@ header {
   background-color: #1a1a1a;
   margin: 0;
   border-bottom: 5px solid;
-  border-color: #AE0202;
+  border-color: #e1641e;
   z-index: 1000;
 }
 
@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  background-color: #AE0202;
+  background-color: #e1641e;
 }
 
 .title {
@@ -51,14 +51,14 @@ nav ul li:hover {
   color: #FFF;
   font-weight: bold;
   padding: 10px;
-  background-color: #AE0202;
+  background-color: #e1641e;
   margin: 0;
 }
 
 li.selected {
   font-size: 16px;
   padding: 10px;
-  background-color: #AE0202;
+  background-color: #e1641e;
   font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ li.selected {
   font-size: 20px;
   border: none;
   color: white;
-  background-color: #AE0202;
+  background-color: #e1641e;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 10px;
