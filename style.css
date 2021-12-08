@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Public sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #1a1a1a;
+  margin: 0;
+  border-bottom: 5px solid;
+  border-color: #AE0202;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  padding-left: 0px;
+  font-size: 0px;
+  float: left;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+  transition: background-color 0.5s;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+nav ul li:hover {
+  background-color: #AE0202;
+}
+
+.title {
+  float: right;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #AE0202;
+  margin: 0;
+}
+
+li.selected {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #AE0202;
+  font-weight: bold;
+}
+
+.Social p {
+  font-weight: bold;
+}
+
+.Social {
+  margin-top: 70px;
+}
+
+.goup {
+  font-size: 20px;
+  border: none;
+  color: white;
+  background-color: #AE0202;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+  margin-left: 10px;
+}
+
+.goup:hover {
+  background-color: #6a6a6a;
+}
+
+footer {
+  background-color: #1a1a1a;
+  padding: 10px;
+  color: #FFF;
+}
