@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The web site of mrstoffer</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        transition: 0.5s;
+      }
+      .fa-youtube {
+        background-color: #ff0000;
+        color: white;
+      }
+      .fa-reddit {
+        background-color: #ff5700;
+        color: white;
+      }
+      .fa-github {
+        background-color: #333;
+        color: white;
+      }
+      .fa-discord {
+        background-color: #7289da;
+        color: white;
+      }
+      .fa:hover {
+        opacity: 0.7;
+        background-color: #bfbfbf;
+      }
+      
+      .banner {
+        background-color: #1a1a1a;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        color: #FFF;
+      }
+      
+      .banner div, .banner div div.buttons {
+        margin: auto;
+        width: 50%; 
+        padding: 20px;
+      }
+      
+      .banner div * {
+        text-align: center;
+      }
+      
+      .banner h1 {
+        font-size: 75px;
+      }
+      
+      .banner a.banbtn {
+        font-size: 20px;
+        border: none;
+        color: white;
+        background-color: #AE0202;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto;
+        margin-top: 1em;
+        text-decoration: none;
+        display: block;
+        width: 50%;
+        transition: background-color 0.5s;
+        transition: 0.5s;
+      }
+      
+      .banner a.banbtn span {
+        position: relative;
+      }
+      
+      .banner a.banbtn:hover {
+        background-color: #6a6a6a;
+      }
+      
+      .banner a.banbtn:hover span:after {
+        opacity: 1;
+        right: 0;
+        padding-left: 25px;
+      }
+      
+      .banner a.banbtn span:after {
+        content: "  \00bb";
+        opacity: 0;
+        transition: 0.5s;
+        right: -25px;
+      }
+      
+      .banner a.godown {
+        display: block;
+        width: 50%;
+        margin: auto;
+      }
+      
+      .red, .white {
+        padding: 2em;
+        font-size: 16px;
+      }
+      
+      .red {
+        background-color: #AE0202;
+      }
+      
+      .godown i {
+        border: solid #FFF;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        transition: 0.5s;
+      }
+      
+      .godown:hover i {
+        margin-top: 20px;
+        margin-bottom: -20px;
+      }
+      
+      .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
+        
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li class="selected">Home</li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#">SCW</a></li>
+        </ul>
+        <span class="title">Mr_Stoffer</span>
+      </nav>
+    </header>
+    <div class="banner">
+      <div>
+        <h1>Mr_Stoffer</h1>
+        <div class="buttons">
+          <a class="banbtn" href="#">Button 1</a>
+          <a class="banbtn" href="#">Button 2</a>
+        </div>
+        <a class="godown" href="#info"><i class="arrow down"></i></a>
+      </div>
+    </div>
+    <div class="white" id="info">
+      <h2>Title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque ante non elit semper pharetra. Curabitur dapibus sit amet mauris sed vehicula. Vivamus vehicula massa vel nisl convallis tristique. Duis dignissim dignissim odio eu mollis. Mauris ut neque risus. Nunc efficitur in velit sed eleifend. Donec tempus placerat lacinia. Duis quam ligula, molestie quis tempus eget, interdum eu turpis. Nam maximus eros sit amet nisi pulvinar aliquam. Phasellus ultrices lectus non justo dapibus, in semper sem pretium. Praesent sit amet eleifend risus, ut imperdiet lectus. <a href="about.html" style="color: #000;"><strong>Read more</strong></a></p>
+    </div>
+    <div class="red">
+      <h2>Title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque ante non elit semper pharetra. Curabitur dapibus sit amet mauris sed vehicula. Vivamus vehicula massa vel nisl convallis tristique. Duis dignissim dignissim odio eu mollis. Mauris ut neque risus. Nunc efficitur in velit sed eleifend. Donec tempus placerat lacinia. Duis quam ligula, molestie quis tempus eget, interdum eu turpis. Nam maximus eros sit amet nisi pulvinar aliquam. Phasellus ultrices lectus non justo dapibus, in semper sem pretium. Praesent sit amet eleifend risus, ut imperdiet lectus. <a href="about.html" style="color: #000;"><strong>Read more</strong></a></p>
+    </div>
+    <footer id="footer">
+      <div>
+        <p style="float: left;">Wow, you actually made it to the bottom of the page! How awesome!</p>
+      </div>
+      <div class="Social">
+        <p>Follow me:</p>
+        <a href="https://www.youtube.com/channel/UC5BownrAbPvUY0PveGSC0Zw" class="fa fa-youtube"></a>
+        <a href="https://www.reddit.com/user/mrstoffer" class="fa fa-reddit"></a>
+        <a href="https://github.com/Mr-Stoffer" class="fa fa-github"></a>
+      </div>
+    </footer>
+  </body>
+</html>
